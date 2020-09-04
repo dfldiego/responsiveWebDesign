@@ -42,9 +42,14 @@ h1 {
     .tres-columnas {
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
     }
 
     .entrada-blog {
         flex-basis: calc(33.3% - 2rem);
     }
 }
+
+/*
+flex-wrap: wrap;  -->agregamos este codigo si queremos agregar mas articulos.
+*/

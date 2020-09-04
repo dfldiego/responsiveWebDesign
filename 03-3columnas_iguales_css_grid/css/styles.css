@@ -45,3 +45,7 @@ h1 {
         column-gap: 2rem;
     }
 }
+
+/*
+con GRID -> si el contenido crece, no hacemos modificaciones.
+*/
