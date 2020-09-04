@@ -37,3 +37,23 @@ h1 {
     font-weight: bold;
     text-transform: uppercase;
 }
+
+@media (min-width: 480px) {
+    .dos-columnas {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .entrada-blog {
+        flex-basis: calc(50% - 1rem);
+    }
+}
+
+/*
+con flexbox definimos el ancho en el hijo.
+
+@media (min-width: 1200px) -> compu escritorio
+@media (min-width: 992px) -> laptop
+@media (min-width: 768px) -> tablet
+@media (min-width: 480px) -> tel mediano
+*/
