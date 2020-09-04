@@ -46,3 +46,42 @@ p {
     font-weight: bold;
     text-transform: uppercase;
 }
+
+@media (min-width: 768px) {
+    .contenedor-flex {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .contenido-principal {
+        flex: 3;
+        padding-right: 2rem;
+    }
+
+    .sidebar {
+        flex: 1;
+        padding-right: 2rem;
+    }
+}
+
+/*
+1ER FORMA:
+.contenido-principal {
+    flex-basis: calc(60% - 1rem);
+}
+
+.sidebar {
+    flex-basis: calc(20% - 1rem);
+}
+
+2DA FORMA:
+.contenido-principal {
+    flex: 3;    --->factor de crecimiento. hay 1200px a ti te asigno 3px, 
+}
+
+.sidebar {
+    flex: 1;    --->y al otro 1px y 1px y asi sucesivamente.
+}
+
+
+*/
