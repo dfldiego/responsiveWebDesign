@@ -37,3 +37,20 @@ h1 {
     font-weight: bold;
     text-transform: uppercase;
 }
+
+@media (min-width: 768px) {
+    .dos-columnas {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+    }
+}
+
+/*
+display: grid; --> afecta al primer nivel de hijos
+grid-template-columns: 50% 50%;
+grid-template-columns: 1fr 1fr; -> cuenta cuantas fracciones hay, y asigna esa fraccion.
+grid-template-columns: repeat(2, 1fr); 
+column-gap:-> separacion entre columnas
+@media (min-width: 768px) --> tablet
+*/
