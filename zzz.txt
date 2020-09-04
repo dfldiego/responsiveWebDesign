@@ -1,0 +1,43 @@
+/* GRID
+display: grid; --> afecta al primer nivel de hijos
+grid-template-columns: 50% 50%;
+grid-template-columns: 1fr 1fr; -> cuenta cuantas fracciones hay, y asigna esa fraccion.
+grid-template-columns: repeat(2, 1fr); 
+column-gap:-> separacion entre columnas
+@media (min-width: 768px) --> tablet
+
+con GRID -> si el contenido crece, no hacemos modificaciones.
+grid-template-columns: 3fr repeat(2, 1fr); --> son 5fr. 3fr,1fr,1fr (60%,20%,20%)
+
+column-drop: a medida que se achica la pantalla se van disminuyendo las columnas.
+column-gap: 1rem; + row-gap: 1rem;  = gap: 1rem;
+*/
+
+/* FLEXBOX
+con flexbox definimos el ancho en el hijo.
+
+@media (min-width: 1200px) -> compu escritorio
+@media (min-width: 992px) -> laptop
+@media (min-width: 768px) -> tablet
+@media (min-width: 480px) -> tel mediano
+
+flex-wrap: wrap;  -->agregamos este codigo si queremos agregar mas articulos.
+                si los elementos "hijos"son obligados a permanecer en una misma línea o pueden 
+                fluir en varias líneas. Si la cobertura (wrap) está permitida
+1ER FORMA:
+.contenido-principal {
+    flex-basis: calc(60% - 1rem);
+}
+.sidebar {
+    flex-basis: calc(20% - 1rem);
+}
+
+2DA FORMA:
+.contenido-principal {
+    flex: 3;    --->factor de crecimiento. hay 1200px a ti te asigno 3px, 
+}
+.sidebar {
+    flex: 1;    --->y al otro 1px y 1px y asi sucesivamente.
+}
+
+*/
