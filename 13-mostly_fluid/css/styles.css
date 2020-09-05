@@ -37,6 +37,18 @@ p {
     margin: 0 auto;
 }
 
+@media (min-width: 600px) {
+    .contenedor {
+        width: 80%;
+    }
+}
+
+@media (min-width: 768px) {
+    .contenedor {
+        width: 90%;
+    }
+}
+
 .entrada-blog a {
     display: inline-block;
     background-color: #2196F3;
