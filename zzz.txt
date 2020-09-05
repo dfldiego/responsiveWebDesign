@@ -55,3 +55,7 @@ grid-auto-rows: minmax(min-content, max-content);
     se genera una cantidad de rows necesarios, que el contenido requiera. 
 grid: unset; -> para sacar el grid al elementos
 */
+
+/*
+
+*/
