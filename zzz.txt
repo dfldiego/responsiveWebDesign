@@ -40,4 +40,10 @@ flex-wrap: wrap;  -->agregamos este codigo si queremos agregar mas articulos.
     flex: 1;    --->y al otro 1px y 1px y asi sucesivamente.
 }
 
+ order: -1; --> los hijos de un flex empiezan con order=1, luego order=2 conforme se
+                van presentando en el HTML. -1 es para presentarlo primero.
+
+otra forma de hacer order: -1; 
+flex-direction: row-reverse -> mostrar la fila de etiquetas al reves.
+
 */
