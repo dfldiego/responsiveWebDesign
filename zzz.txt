@@ -58,5 +58,6 @@ grid: unset; -> para sacar el grid al elementos
 
 /*
 Mostly Fluid: texto y la imagen fluya dependiendo del ancho de la pantalla.
-
+Tiny tweaks: se mantiene un diseño proporcional y similar con cualquier medida pero con 
+            pequeños ajustes.
 */
