@@ -47,3 +47,11 @@ otra forma de hacer order: -1;
 flex-direction: row-reverse -> mostrar la fila de etiquetas al reves.
 
 */
+
+/*
+layout shifter: diseño cambia, los div se posicionan de manera diferente en cada @media.
+
+grid-auto-rows: minmax(min-content, max-content); 
+    se genera una cantidad de rows necesarios, que el contenido requiera. 
+grid: unset; -> para sacar el grid al elementos
+*/
